@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21BFF49E29A87C691AC936C7581B1697 /* Pods-TWLocalize-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F906A9A6350DD04357460E566BBF5E2 /* Pods-TWLocalize-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24167847FD068F45FF5F1A18BEE73887 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		43F3ABCFAAE6674ED65FE5637CE9D3B1 /* TWLocalize-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F4AF7F768FF3C202DE607BA31BF885 /* TWLocalize-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53406B71AE1179A6B766E525B1CA8897 /* TWLocalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9399614331D002A7F5E6DA70843213F9 /* TWLocalize.swift */; };
+		671CE887A842E50CACE2F0D91D282D09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		697BE33355483DF035C77DDC6B37F3D7 /* Pods-TWLocalize-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A030C90BD160449F8D57306312E00429 /* Pods-TWLocalize-dummy.m */; };
+		6D99869FAAAC0C8309C7C84D15C836A8 /* Pods-TWLocalizeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D30AF164AB0A58BC7434CA3C37EE07 /* Pods-TWLocalizeTests-dummy.m */; };
+		C0247C137CC2E99909CF1CD97E9DF9E2 /* Pods-TWLocalizeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEDECEAB6D6B77C68BFD33E1C4AEB0D5 /* Pods-TWLocalizeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7F983628F77210419BEBF712FFE4EAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		DC374712D6E44D6A2CFAADE080C7AFC7 /* TWLocalize-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7B88AC362F4FD74652783C9C850CD /* TWLocalize-dummy.m */; };
+		E61A5F09357084F8AD1F602520000374 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EB1820EBD43371ADC82A481659C6873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96E6890BAF77E32C26E5999C7A943C30;
+			remoteInfo = TWLocalize;
+		};
+		D0B17509A95C3E2CD7FBECB4440587EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96E6890BAF77E32C26E5999C7A943C30;
+			remoteInfo = TWLocalize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FC7B88AC362F4FD74652783C9C850CD /* TWLocalize-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TWLocalize-dummy.m"; sourceTree = "<group>"; };
+		105438250FF09EEF33B1047B1E26EE7C /* Pods-TWLocalize-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TWLocalize-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1473E661B7611608F1741009B98579CD /* Pods-TWLocalizeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TWLocalizeTests-resources.sh"; sourceTree = "<group>"; };
+		1B6FBC0210EE1D7D1B63F6B358FAD466 /* Pods-TWLocalize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWLocalize.release.xcconfig"; sourceTree = "<group>"; };
+		2171D6A5BBD78248260F70BF97F83332 /* TWLocalize.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TWLocalize.xcconfig; sourceTree = "<group>"; };
+		2F906A9A6350DD04357460E566BBF5E2 /* Pods-TWLocalize-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TWLocalize-umbrella.h"; sourceTree = "<group>"; };
+		4A9D77882E7EFC838F7498233F677FDB /* Pods_TWLocalize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TWLocalize.framework; path = "Pods-TWLocalize.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6953EDC6D754F3A1261308E74630D0 /* Pods-TWLocalize-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TWLocalize-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E82FF6897230F073ED8B1CAAC815929 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510216BACDB6E2E940C6B21A319C4CB9 /* Pods-TWLocalize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWLocalize.debug.xcconfig"; sourceTree = "<group>"; };
+		55B7A299C9F66B8BC55D9FF9F2476F84 /* Pods-TWLocalize.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TWLocalize.modulemap"; sourceTree = "<group>"; };
+		58D0EFC38D232A1D12F457C800F56221 /* Pods-TWLocalizeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TWLocalizeTests.modulemap"; sourceTree = "<group>"; };
+		617F55E96DD38B7D7B9815BB8B60014E /* TWLocalize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TWLocalize.framework; path = TWLocalize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5F394D2E71AAA2CCD76508CDE7BC62 /* Pods-TWLocalizeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TWLocalizeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DB68F8AFF0EE15BE50BCF516CB80BCB /* Pods-TWLocalizeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TWLocalizeTests-frameworks.sh"; sourceTree = "<group>"; };
+		7DFF8C272DD084798B89640B1BC0B586 /* Pods-TWLocalizeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TWLocalizeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A2155D8C5D48334B0720FA7E08CC5A8 /* Pods-TWLocalizeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWLocalizeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9399614331D002A7F5E6DA70843213F9 /* TWLocalize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TWLocalize.swift; path = TWLocalize/TWLocalize.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98F4AF7F768FF3C202DE607BA31BF885 /* TWLocalize-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWLocalize-umbrella.h"; sourceTree = "<group>"; };
+		A030C90BD160449F8D57306312E00429 /* Pods-TWLocalize-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TWLocalize-dummy.m"; sourceTree = "<group>"; };
+		A75FED680A9B67DF56ADFBA5951442D5 /* Pods-TWLocalize-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TWLocalize-resources.sh"; sourceTree = "<group>"; };
+		AAF4092C56474F0E379844FE5445B01F /* Pods-TWLocalizeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWLocalizeTests.release.xcconfig"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C49405A567F3A1658219E1165F4711AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60B2D1473536F7BC44DC740755EC314 /* TWLocalize.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TWLocalize.modulemap; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E0851237B6C999011242954857805D1C /* Pods_TWLocalizeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TWLocalizeTests.framework; path = "Pods-TWLocalizeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D30AF164AB0A58BC7434CA3C37EE07 /* Pods-TWLocalizeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TWLocalizeTests-dummy.m"; sourceTree = "<group>"; };
+		EB22A943D77D515C1FF849BD3F040F5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DDD4FAAE16FF748579B7215A3C520F /* TWLocalize-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWLocalize-prefix.pch"; sourceTree = "<group>"; };
+		FEDECEAB6D6B77C68BFD33E1C4AEB0D5 /* Pods-TWLocalizeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TWLocalizeTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		145B5E8E74EA2D7C09986BCD9F021098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24167847FD068F45FF5F1A18BEE73887 /* Foundation.framework in Frameworks */,
+				E61A5F09357084F8AD1F602520000374 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39E43E9D42E1FA56334F353EEEEBE345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671CE887A842E50CACE2F0D91D282D09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771BB746E0246DBCE22A4C768ACBFC8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F983628F77210419BEBF712FFE4EAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3177ED1153FC5E9FB902AE5720F65672 /* Pods-TWLocalizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB22A943D77D515C1FF849BD3F040F5E /* Info.plist */,
+				58D0EFC38D232A1D12F457C800F56221 /* Pods-TWLocalizeTests.modulemap */,
+				6D5F394D2E71AAA2CCD76508CDE7BC62 /* Pods-TWLocalizeTests-acknowledgements.markdown */,
+				7DFF8C272DD084798B89640B1BC0B586 /* Pods-TWLocalizeTests-acknowledgements.plist */,
+				E4D30AF164AB0A58BC7434CA3C37EE07 /* Pods-TWLocalizeTests-dummy.m */,
+				7DB68F8AFF0EE15BE50BCF516CB80BCB /* Pods-TWLocalizeTests-frameworks.sh */,
+				1473E661B7611608F1741009B98579CD /* Pods-TWLocalizeTests-resources.sh */,
+				FEDECEAB6D6B77C68BFD33E1C4AEB0D5 /* Pods-TWLocalizeTests-umbrella.h */,
+				8A2155D8C5D48334B0720FA7E08CC5A8 /* Pods-TWLocalizeTests.debug.xcconfig */,
+				AAF4092C56474F0E379844FE5445B01F /* Pods-TWLocalizeTests.release.xcconfig */,
+			);
+			name = "Pods-TWLocalizeTests";
+			path = "Target Support Files/Pods-TWLocalizeTests";
+			sourceTree = "<group>";
+		};
+		3FCEF1B6466C6B0BE973463DE5C4DB1E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				655D37565DDF977FEC367077819BAF50 /* Pods-TWLocalize */,
+				3177ED1153FC5E9FB902AE5720F65672 /* Pods-TWLocalizeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		655D37565DDF977FEC367077819BAF50 /* Pods-TWLocalize */ = {
+			isa = PBXGroup;
+			children = (
+				C49405A567F3A1658219E1165F4711AA /* Info.plist */,
+				55B7A299C9F66B8BC55D9FF9F2476F84 /* Pods-TWLocalize.modulemap */,
+				105438250FF09EEF33B1047B1E26EE7C /* Pods-TWLocalize-acknowledgements.markdown */,
+				4C6953EDC6D754F3A1261308E74630D0 /* Pods-TWLocalize-acknowledgements.plist */,
+				A030C90BD160449F8D57306312E00429 /* Pods-TWLocalize-dummy.m */,
+				A75FED680A9B67DF56ADFBA5951442D5 /* Pods-TWLocalize-resources.sh */,
+				2F906A9A6350DD04357460E566BBF5E2 /* Pods-TWLocalize-umbrella.h */,
+				510216BACDB6E2E940C6B21A319C4CB9 /* Pods-TWLocalize.debug.xcconfig */,
+				1B6FBC0210EE1D7D1B63F6B358FAD466 /* Pods-TWLocalize.release.xcconfig */,
+			);
+			name = "Pods-TWLocalize";
+			path = "Target Support Files/Pods-TWLocalize";
+			sourceTree = "<group>";
+		};
+		6701213C6B442B4FE7D672FE6350A79F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E82FF6897230F073ED8B1CAAC815929 /* Info.plist */,
+				D60B2D1473536F7BC44DC740755EC314 /* TWLocalize.modulemap */,
+				2171D6A5BBD78248260F70BF97F83332 /* TWLocalize.xcconfig */,
+				0FC7B88AC362F4FD74652783C9C850CD /* TWLocalize-dummy.m */,
+				F1DDD4FAAE16FF748579B7215A3C520F /* TWLocalize-prefix.pch */,
+				98F4AF7F768FF3C202DE607BA31BF885 /* TWLocalize-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TWLocalize";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				C8FD901B2DE1005DAFE694E79E24A60E /* Pods */,
+				9A82CC4E6A1D3E07AFC5D47226031EF2 /* Products */,
+				3FCEF1B6466C6B0BE973463DE5C4DB1E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A82CC4E6A1D3E07AFC5D47226031EF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A9D77882E7EFC838F7498233F677FDB /* Pods_TWLocalize.framework */,
+				E0851237B6C999011242954857805D1C /* Pods_TWLocalizeTests.framework */,
+				617F55E96DD38B7D7B9815BB8B60014E /* TWLocalize.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8FD901B2DE1005DAFE694E79E24A60E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9FAFC5B29640DF9FAE293A1E31D705E /* TWLocalize */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9FAFC5B29640DF9FAE293A1E31D705E /* TWLocalize */ = {
+			isa = PBXGroup;
+			children = (
+				9399614331D002A7F5E6DA70843213F9 /* TWLocalize.swift */,
+				6701213C6B442B4FE7D672FE6350A79F /* Support Files */,
+			);
+			name = TWLocalize;
+			path = TWLocalize;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4366916BEE9D51831D80875A7CD4FED3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0247C137CC2E99909CF1CD97E9DF9E2 /* Pods-TWLocalizeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA97AD35C181AF9317597BD6DFC5791 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F3ABCFAAE6674ED65FE5637CE9D3B1 /* TWLocalize-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D187278ED0822828C1BB243DF9B26071 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BFF49E29A87C691AC936C7581B1697 /* Pods-TWLocalize-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CB542444B375C409056476D1A54FED1 /* Pods-TWLocalizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962DC772E812D98C994BEE1073ACBE6B /* Build configuration list for PBXNativeTarget "Pods-TWLocalizeTests" */;
+			buildPhases = (
+				84810879E24B6AEA89FC1DCFE357F7BC /* Sources */,
+				39E43E9D42E1FA56334F353EEEEBE345 /* Frameworks */,
+				4366916BEE9D51831D80875A7CD4FED3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				146644EAB5568E0A75A39EC3FF4A5F79 /* PBXTargetDependency */,
+			);
+			name = "Pods-TWLocalizeTests";
+			productName = "Pods-TWLocalizeTests";
+			productReference = E0851237B6C999011242954857805D1C /* Pods_TWLocalizeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68CAD0782CC713A172628F1A60760DF7 /* Pods-TWLocalize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B11B6CB200FFE9839ED1CEE42114D9 /* Build configuration list for PBXNativeTarget "Pods-TWLocalize" */;
+			buildPhases = (
+				8D88BB224D5DA1F43DFFFAD99BEA1431 /* Sources */,
+				771BB746E0246DBCE22A4C768ACBFC8E /* Frameworks */,
+				D187278ED0822828C1BB243DF9B26071 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A1D2F3A2B54D4E1ABA67A801E0F5F68 /* PBXTargetDependency */,
+			);
+			name = "Pods-TWLocalize";
+			productName = "Pods-TWLocalize";
+			productReference = 4A9D77882E7EFC838F7498233F677FDB /* Pods_TWLocalize.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96E6890BAF77E32C26E5999C7A943C30 /* TWLocalize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854DE545A837D55C450A48AEC4021BDF /* Build configuration list for PBXNativeTarget "TWLocalize" */;
+			buildPhases = (
+				61984ADC3E170B63BDBA45557E1BA26E /* Sources */,
+				145B5E8E74EA2D7C09986BCD9F021098 /* Frameworks */,
+				7AA97AD35C181AF9317597BD6DFC5791 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWLocalize;
+			productName = TWLocalize;
+			productReference = 617F55E96DD38B7D7B9815BB8B60014E /* TWLocalize.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9A82CC4E6A1D3E07AFC5D47226031EF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68CAD0782CC713A172628F1A60760DF7 /* Pods-TWLocalize */,
+				0CB542444B375C409056476D1A54FED1 /* Pods-TWLocalizeTests */,
+				96E6890BAF77E32C26E5999C7A943C30 /* TWLocalize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61984ADC3E170B63BDBA45557E1BA26E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC374712D6E44D6A2CFAADE080C7AFC7 /* TWLocalize-dummy.m in Sources */,
+				53406B71AE1179A6B766E525B1CA8897 /* TWLocalize.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84810879E24B6AEA89FC1DCFE357F7BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D99869FAAAC0C8309C7C84D15C836A8 /* Pods-TWLocalizeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D88BB224D5DA1F43DFFFAD99BEA1431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697BE33355483DF035C77DDC6B37F3D7 /* Pods-TWLocalize-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		146644EAB5568E0A75A39EC3FF4A5F79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TWLocalize;
+			target = 96E6890BAF77E32C26E5999C7A943C30 /* TWLocalize */;
+			targetProxy = 6EB1820EBD43371ADC82A481659C6873 /* PBXContainerItemProxy */;
+		};
+		6A1D2F3A2B54D4E1ABA67A801E0F5F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TWLocalize;
+			target = 96E6890BAF77E32C26E5999C7A943C30 /* TWLocalize */;
+			targetProxy = D0B17509A95C3E2CD7FBECB4440587EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		047F165CC50DB417BE92EB403A58EE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2171D6A5BBD78248260F70BF97F83332 /* TWLocalize.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TWLocalize/TWLocalize-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TWLocalize/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TWLocalize/TWLocalize.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TWLocalize;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		23E488648E0DAF1D608F3C1BB011C575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2155D8C5D48334B0720FA7E08CC5A8 /* Pods-TWLocalizeTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TWLocalizeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TWLocalizeTests/Pods-TWLocalizeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TWLocalizeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61CAB3EBC39E30885464FED0EB170A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6FBC0210EE1D7D1B63F6B358FAD466 /* Pods-TWLocalize.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TWLocalize/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TWLocalize/Pods-TWLocalize.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TWLocalize;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77379D08A6827E01E70C078AAF7A6891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2171D6A5BBD78248260F70BF97F83332 /* TWLocalize.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TWLocalize/TWLocalize-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TWLocalize/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TWLocalize/TWLocalize.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TWLocalize;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87E74B6FEA7D61DAAF899044C0FC49F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF4092C56474F0E379844FE5445B01F /* Pods-TWLocalizeTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TWLocalizeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TWLocalizeTests/Pods-TWLocalizeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TWLocalizeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3A35CD8567FE59A7682A88E56C3DD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 510216BACDB6E2E940C6B21A319C4CB9 /* Pods-TWLocalize.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TWLocalize/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TWLocalize/Pods-TWLocalize.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TWLocalize;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B11B6CB200FFE9839ED1CEE42114D9 /* Build configuration list for PBXNativeTarget "Pods-TWLocalize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A35CD8567FE59A7682A88E56C3DD86 /* Debug */,
+				61CAB3EBC39E30885464FED0EB170A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		854DE545A837D55C450A48AEC4021BDF /* Build configuration list for PBXNativeTarget "TWLocalize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77379D08A6827E01E70C078AAF7A6891 /* Debug */,
+				047F165CC50DB417BE92EB403A58EE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962DC772E812D98C994BEE1073ACBE6B /* Build configuration list for PBXNativeTarget "Pods-TWLocalizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E488648E0DAF1D608F3C1BB011C575 /* Debug */,
+				87E74B6FEA7D61DAAF899044C0FC49F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

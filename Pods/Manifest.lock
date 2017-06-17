@@ -1,0 +1,21 @@
+PODS:
+  - TWLocalize (0.0.1)
+
+DEPENDENCIES:
+  - TWLocalize (from `https://github.com/tom-wolters/TWLocalize.git`)
+
+EXTERNAL SOURCES:
+  TWLocalize:
+    :git: https://github.com/tom-wolters/TWLocalize.git
+
+CHECKOUT OPTIONS:
+  TWLocalize:
+    :commit: 2a9b97d0aae06d2bfbb0b865dc8f3ed9db08742c
+    :git: https://github.com/tom-wolters/TWLocalize.git
+
+SPEC CHECKSUMS:
+  TWLocalize: 7c7447bd5bcf6df175324641179098fc2b94696a
+
+PODFILE CHECKSUM: bb23d4f14297e98a564f7200a6a37d815287e641
+
+COCOAPODS: 1.2.1

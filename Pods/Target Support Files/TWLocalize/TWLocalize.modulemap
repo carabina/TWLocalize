@@ -1,0 +1,6 @@
+framework module TWLocalize {
+  umbrella header "TWLocalize-umbrella.h"
+
+  export *
+  module * { export * }
+}
