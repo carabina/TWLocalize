@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8384CB01EF5B4A400F5EE2D /* TWLocalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8384CAF1EF5B4A400F5EE2D /* TWLocalize.swift */; };
+		A8C1DCF51EF5B46F009727BA /* TWLocalize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C1DCEB1EF5B46F009727BA /* TWLocalize.framework */; };
+		A8C1DCFA1EF5B46F009727BA /* TWLocalizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C1DCF91EF5B46F009727BA /* TWLocalizeTests.swift */; };
+		A8C1DCFC1EF5B46F009727BA /* TWLocalize.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C1DCEE1EF5B46F009727BA /* TWLocalize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8C1DCF61EF5B46F009727BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C1DCE21EF5B46F009727BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C1DCEA1EF5B46F009727BA;
+			remoteInfo = TWLocalize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8384CAF1EF5B4A400F5EE2D /* TWLocalize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TWLocalize.swift; path = ../../TWLocalize.swift; sourceTree = "<group>"; };
+		A8C1DCEB1EF5B46F009727BA /* TWLocalize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TWLocalize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C1DCEE1EF5B46F009727BA /* TWLocalize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWLocalize.h; sourceTree = "<group>"; };
+		A8C1DCEF1EF5B46F009727BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C1DCF41EF5B46F009727BA /* TWLocalizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWLocalizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C1DCF91EF5B46F009727BA /* TWLocalizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWLocalizeTests.swift; sourceTree = "<group>"; };
+		A8C1DCFB1EF5B46F009727BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8C1DCE71EF5B46F009727BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C1DCF11EF5B46F009727BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C1DCF51EF5B46F009727BA /* TWLocalize.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8C1DCE11EF5B46F009727BA = {
+			isa = PBXGroup;
+			children = (
+				A8C1DCED1EF5B46F009727BA /* TWLocalize */,
+				A8C1DCF81EF5B46F009727BA /* TWLocalizeTests */,
+				A8C1DCEC1EF5B46F009727BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8C1DCEC1EF5B46F009727BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8C1DCEB1EF5B46F009727BA /* TWLocalize.framework */,
+				A8C1DCF41EF5B46F009727BA /* TWLocalizeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8C1DCED1EF5B46F009727BA /* TWLocalize */ = {
+			isa = PBXGroup;
+			children = (
+				A8384CAF1EF5B4A400F5EE2D /* TWLocalize.swift */,
+				A8C1DCEE1EF5B46F009727BA /* TWLocalize.h */,
+				A8C1DCEF1EF5B46F009727BA /* Info.plist */,
+			);
+			path = TWLocalize;
+			sourceTree = "<group>";
+		};
+		A8C1DCF81EF5B46F009727BA /* TWLocalizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8C1DCF91EF5B46F009727BA /* TWLocalizeTests.swift */,
+				A8C1DCFB1EF5B46F009727BA /* Info.plist */,
+			);
+			path = TWLocalizeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A8C1DCE81EF5B46F009727BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C1DCFC1EF5B46F009727BA /* TWLocalize.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A8C1DCEA1EF5B46F009727BA /* TWLocalize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C1DCFF1EF5B46F009727BA /* Build configuration list for PBXNativeTarget "TWLocalize" */;
+			buildPhases = (
+				A8C1DCE61EF5B46F009727BA /* Sources */,
+				A8C1DCE71EF5B46F009727BA /* Frameworks */,
+				A8C1DCE81EF5B46F009727BA /* Headers */,
+				A8C1DCE91EF5B46F009727BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWLocalize;
+			productName = TWLocalize;
+			productReference = A8C1DCEB1EF5B46F009727BA /* TWLocalize.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8C1DCF31EF5B46F009727BA /* TWLocalizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C1DD021EF5B46F009727BA /* Build configuration list for PBXNativeTarget "TWLocalizeTests" */;
+			buildPhases = (
+				A8C1DCF01EF5B46F009727BA /* Sources */,
+				A8C1DCF11EF5B46F009727BA /* Frameworks */,
+				A8C1DCF21EF5B46F009727BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8C1DCF71EF5B46F009727BA /* PBXTargetDependency */,
+			);
+			name = TWLocalizeTests;
+			productName = TWLocalizeTests;
+			productReference = A8C1DCF41EF5B46F009727BA /* TWLocalizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8C1DCE21EF5B46F009727BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "TW App Creation";
+				TargetAttributes = {
+					A8C1DCEA1EF5B46F009727BA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 22G4U5JWP9;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					A8C1DCF31EF5B46F009727BA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 22G4U5JWP9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A8C1DCE51EF5B46F009727BA /* Build configuration list for PBXProject "TWLocalize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8C1DCE11EF5B46F009727BA;
+			productRefGroup = A8C1DCEC1EF5B46F009727BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8C1DCEA1EF5B46F009727BA /* TWLocalize */,
+				A8C1DCF31EF5B46F009727BA /* TWLocalizeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8C1DCE91EF5B46F009727BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C1DCF21EF5B46F009727BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8C1DCE61EF5B46F009727BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8384CB01EF5B4A400F5EE2D /* TWLocalize.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C1DCF01EF5B46F009727BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C1DCFA1EF5B46F009727BA /* TWLocalizeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8C1DCF71EF5B46F009727BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8C1DCEA1EF5B46F009727BA /* TWLocalize */;
+			targetProxy = A8C1DCF61EF5B46F009727BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A8C1DCFD1EF5B46F009727BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8C1DCFE1EF5B46F009727BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8C1DD001EF5B46F009727BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 22G4U5JWP9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TWLocalize/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.tw-app-creation.TWLocalize";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A8C1DD011EF5B46F009727BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 22G4U5JWP9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TWLocalize/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.tw-app-creation.TWLocalize";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A8C1DD031EF5B46F009727BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 22G4U5JWP9;
+				INFOPLIST_FILE = TWLocalizeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.tw-app-creation.TWLocalizeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A8C1DD041EF5B46F009727BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 22G4U5JWP9;
+				INFOPLIST_FILE = TWLocalizeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.tw-app-creation.TWLocalizeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8C1DCE51EF5B46F009727BA /* Build configuration list for PBXProject "TWLocalize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C1DCFD1EF5B46F009727BA /* Debug */,
+				A8C1DCFE1EF5B46F009727BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C1DCFF1EF5B46F009727BA /* Build configuration list for PBXNativeTarget "TWLocalize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C1DD001EF5B46F009727BA /* Debug */,
+				A8C1DD011EF5B46F009727BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C1DD021EF5B46F009727BA /* Build configuration list for PBXNativeTarget "TWLocalizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C1DD031EF5B46F009727BA /* Debug */,
+				A8C1DD041EF5B46F009727BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8C1DCE21EF5B46F009727BA /* Project object */;
+}
