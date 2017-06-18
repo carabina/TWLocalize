@@ -13,7 +13,11 @@ public typealias TWLocalizedText = [TWLanguageCode:String]
 public enum TWLanguageCode:String {
     case dutch = "nl"
     case english = "en"
-    case spanish = "sp"
+    case spanish = "es"
+    case french = "fr"
+    case turkish = "tr"
+    case german = "de"
+    case portuguese = "pt"
 }
 
 /** ## Use TWLocalizedStrings to add new TWLocalizedText
