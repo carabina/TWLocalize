@@ -8,7 +8,7 @@
 
 import UIKit
 
-typealias TWLocalizedText = [TWLanguageCode:String]
+public typealias TWLocalizedText = [TWLanguageCode:String]
 
 public enum TWLanguageCode:String {
     case dutch = "nl"
@@ -26,7 +26,7 @@ public enum TWLanguageCode:String {
  */
 public struct TWLocalizedStrings {}
 
-final public class TWLocalize {
+public final class TWLocalize {
     fileprivate static var defaultLanguage:String? {
         set {
             UserDefaults.standard.set(newValue, forKey: "TWLocalizedCustomLanguageIdentifier")
@@ -55,23 +55,5 @@ final public class TWLocalize {
     
     class func text(_ localizedText:TWLocalizedText) -> String? {
         return localizedText[languageCode!] ?? localizedText[.english] ?? localizedText.first?.value
-    }
-}
-
-public extension Dictionary where Dictionary.Key == TWLanguageCode, Dictionary.Value == String {
-    var localized:String? {
-        return TWLocalize.text(self)
-    }
-}
-
-public extension UILabel {
-    func setLocalized(text:TWLocalizedText) {
-        self.text = TWLocalize.text(text)
-    }
-}
-
-public extension UIButton {
-    func setLocalizedTitle(text:TWLocalizedText, for controlState:UIControlState = .normal) {
-        self.setTitle(TWLocalize.text(text), for: controlState)
     }
 }

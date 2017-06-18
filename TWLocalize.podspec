@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.requires_arc        = true
   s.source              = { :git => "https://github.com/tom-wolters/TWLocalize.git", :tag => "#{s.version}" }
   s.source_files        = "TWLocalize/**/*.{swift}"
-  s.framework = "UIKit"
+  s.framework           = "UIKit"
 
 end

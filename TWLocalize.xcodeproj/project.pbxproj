@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3AA878E6236319426D4442BF /* Pods_TWLocalizeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD13C40DDDF3CF9ADFE1D9B /* Pods_TWLocalizeTests.framework */; };
 		69A9B6AE8802D4DE57D97E62 /* Pods_TWLocalize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB1BE8794008718F8596A83 /* Pods_TWLocalize.framework */; };
+		A812F29C1EF68E8100B34D30 /* TWLocalize+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A812F29B1EF68E8100B34D30 /* TWLocalize+Extensions.swift */; };
+		A812F29D1EF68ED600B34D30 /* TWLocalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8384CB11EF5B50700F5EE2D /* TWLocalize.swift */; };
 		A8384CB31EF5B5FB00F5EE2D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8384CB21EF5B5FB00F5EE2D /* Logger.swift */; };
 		A8C1DCF51EF5B46F009727BA /* TWLocalize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C1DCEB1EF5B46F009727BA /* TWLocalize.framework */; };
 		A8C1DCFA1EF5B46F009727BA /* TWLocalizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C1DCF91EF5B46F009727BA /* TWLocalizeTests.swift */; };
@@ -30,6 +32,7 @@
 		6170BC24B4015F481EDD2E6C /* Pods-TWLocalize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWLocalize.release.xcconfig"; path = "Pods/Target Support Files/Pods-TWLocalize/Pods-TWLocalize.release.xcconfig"; sourceTree = "<group>"; };
 		6AD13C40DDDF3CF9ADFE1D9B /* Pods_TWLocalizeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWLocalizeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB1BE8794008718F8596A83 /* Pods_TWLocalize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWLocalize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A812F29B1EF68E8100B34D30 /* TWLocalize+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TWLocalize+Extensions.swift"; sourceTree = "<group>"; };
 		A8384CB11EF5B50700F5EE2D /* TWLocalize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWLocalize.swift; sourceTree = "<group>"; };
 		A8384CB21EF5B5FB00F5EE2D /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = ../../../Tickee/Tickee/Utils/Logger.swift; sourceTree = "<group>"; };
 		A8C1DCEB1EF5B46F009727BA /* TWLocalize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TWLocalize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				A8384CB11EF5B50700F5EE2D /* TWLocalize.swift */,
+				A812F29B1EF68E8100B34D30 /* TWLocalize+Extensions.swift */,
 				A8384CB21EF5B5FB00F5EE2D /* Logger.swift */,
 				A8C1DCEE1EF5B46F009727BA /* TWLocalize.h */,
 				A8C1DCEF1EF5B46F009727BA /* Info.plist */,
@@ -319,7 +323,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A812F29D1EF68ED600B34D30 /* TWLocalize.swift in Sources */,
 				A8384CB31EF5B5FB00F5EE2D /* Logger.swift in Sources */,
+				A812F29C1EF68E8100B34D30 /* TWLocalize+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
