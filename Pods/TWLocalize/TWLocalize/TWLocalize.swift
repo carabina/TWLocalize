@@ -8,9 +8,9 @@
 
 import UIKit
 
-typealias TWLocalizedText = [TWLanguageCode:String]
+public typealias TWLocalizedText = [TWLanguageCode:String]
 
-enum TWLanguageCode:String {
+public enum TWLanguageCode:String {
     case dutch = "nl"
     case english = "en"
     case spanish = "sp"
@@ -26,7 +26,7 @@ enum TWLanguageCode:String {
  */
 public struct TWLocalizedStrings {}
 
-final class TWLocalize {
+public final class TWLocalize {
     fileprivate static var defaultLanguage:String? {
         set {
             UserDefaults.standard.set(newValue, forKey: "TWLocalizedCustomLanguageIdentifier")
@@ -49,29 +49,11 @@ final class TWLocalize {
     class func setLanguage(to languageCode:TWLanguageCode?) {
         guard let code = languageCode else { defaultLanguage = nil ; return }
         let languageCodes = Locale.availableIdentifiers.map { NSLocale(localeIdentifier: $0).object(forKey: NSLocale.Key.languageCode) as! String }
-        guard let _ = languageCodes.index(of: code.rawValue) else { print("\(code.rawValue) is not a valid language code") ; return }
+        guard let _ = languageCodes.index(of: code.rawValue) else { Logger.log(.error("\(code.rawValue) is not a valid language code")) ; return }
         defaultLanguage = code.rawValue
     }
     
     class func text(_ localizedText:TWLocalizedText) -> String? {
         return localizedText[languageCode!] ?? localizedText[.english] ?? localizedText.first?.value
-    }
-}
-
-extension Dictionary where Dictionary.Key == TWLanguageCode, Dictionary.Value == String {
-    var localized:String? {
-        return TWLocalize.text(self)
-    }
-}
-
-extension UILabel {
-    func setLocalized(text:TWLocalizedText) {
-        self.text = TWLocalize.text(text)
-    }
-}
-
-extension UIButton {
-    func setLocalizedTitle(text:TWLocalizedText, for controlState:UIControlState = .normal) {
-        self.setTitle(TWLocalize.text(text), for: controlState)
     }
 }
