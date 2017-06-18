@@ -10,7 +10,30 @@ import XCTest
 import TWLocalize
 
 class TWLocalizeTests: XCTestCase {
+    
     func test_returnTranslatedText_inDutch() {
         
     }
+    
+    func test_returnSystemSetLanguage() {
+        
+    }
+    
+    func test_returnCustomSetLanguage() {
+        
+    }
+    
+    func test_canSetCustomLanguageBackToNil() {
+        
+    }
+    
+    func test_canSetCustomLanguaeToValidLanguageCode() {
+        
+    }
+    
+    func test_cannotSetCustomLanguageToInvalidLanguageCode() {
+        
+    }
+    
+    
 }
