@@ -20,10 +20,12 @@ class TWLocalizeExtensionTests: XCTestCase {
     }
     
     func  test_canSetTextTranslatedTitleForAUIButton() {
-        
+        let button = UIButton()
+        button.setLocalizedTitle(text: TWLocalizedStrings.MyTranslatedText)
+        XCTAssertEqual(TWLocalizedStrings.MyTranslatedText[TWLanguageCode(rawValue: systemLang)!], button.currentTitle)
     }
     
     func test_TWLocalizedTextHashReturnsLocalized() {
-        
+        XCTAssertEqual(TWLocalizedStrings.MyTranslatedText.localized, TWLocalizedStrings.MyTranslatedText[TWLanguageCode(rawValue: systemLang)!])
     }
 }
