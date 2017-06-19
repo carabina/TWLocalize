@@ -13,6 +13,11 @@ class TWLocalizeExtensionTests: XCTestCase {
     
     let systemLang = NSLocale(localeIdentifier: Locale.current.identifier).object(forKey: NSLocale.Key.languageCode) as! String
     
+    override func setUp() {
+        super.setUp()
+        TWLocalize.setLanguage(to: nil)
+    }
+    
     func  test_canSetTextTranslatedTextForAUILabel() {
         let label = UILabel()
         label.setLocalized(text: TWLocalizedStrings.MyTranslatedText)

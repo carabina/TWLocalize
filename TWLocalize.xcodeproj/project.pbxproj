@@ -118,9 +118,9 @@
 				A8384CB11EF5B50700F5EE2D /* TWLocalize.swift */,
 				A812F29B1EF68E8100B34D30 /* TWLocalize+Extensions.swift */,
 				A8384CB21EF5B5FB00F5EE2D /* Logger.swift */,
+				A8E824F11EF848A7005F41A1 /* TWLanguageCode.swift */,
 				A8C1DCEE1EF5B46F009727BA /* TWLocalize.h */,
 				A8C1DCEF1EF5B46F009727BA /* Info.plist */,
-				A8E824F11EF848A7005F41A1 /* TWLanguageCode.swift */,
 			);
 			path = TWLocalize;
 			sourceTree = "<group>";

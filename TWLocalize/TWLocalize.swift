@@ -22,7 +22,12 @@ public struct TWLocalizedStrings {}
 public final class TWLocalize {
     fileprivate static var defaultLanguage:String? {
         set {
-            UserDefaults.standard.set(newValue, forKey: "TWLocalizedCustomLanguageIdentifier")
+            if let newValue = newValue {
+                UserDefaults.standard.set(newValue, forKey: "TWLocalizedCustomLanguageIdentifier")
+            } else {
+                UserDefaults.standard.removeObject(forKey: "TWLocalizedCustomLanguageIdentifier")
+            }
+            
             UserDefaults.standard.synchronize()
         }
         get {
