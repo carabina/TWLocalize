@@ -49,14 +49,14 @@ public final class TWLocalize {
         return nil
     }
     
-    class func setLanguage(to languageCode:TWLanguageCode?) {
+    public class func setLanguage(to languageCode:TWLanguageCode?) {
         guard let code = languageCode else { defaultLanguage = nil ; return }
         let languageCodes = Locale.availableIdentifiers.map { NSLocale(localeIdentifier: $0).object(forKey: NSLocale.Key.languageCode) as! String }
         guard let _ = languageCodes.index(of: code.rawValue) else { Logger.log(.error("\(code.rawValue) is not a valid language code")) ; return }
         defaultLanguage = code.rawValue
     }
     
-    class func text(_ localizedText:TWLocalizedText) -> String? {
+    public class func text(_ localizedText:TWLocalizedText) -> String? {
         return localizedText[languageCode!] ?? localizedText[.english] ?? localizedText.first?.value
     }
 }

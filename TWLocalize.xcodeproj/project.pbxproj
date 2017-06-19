@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		458B086F8FD1A62A02A5D16E /* Pods_TWLocalize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44381CC6EDC9F0B72C7AB68C /* Pods_TWLocalize.framework */; };
+		35D13F08DDDD2AF4FD1F1863 /* Pods_TWLocalizeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870EF1B81724E715E389B75A /* Pods_TWLocalizeTests.framework */; };
 		A812F29C1EF68E8100B34D30 /* TWLocalize+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A812F29B1EF68E8100B34D30 /* TWLocalize+Extensions.swift */; };
 		A812F29D1EF68ED600B34D30 /* TWLocalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8384CB11EF5B50700F5EE2D /* TWLocalize.swift */; };
 		A812F2A21EF695FE00B34D30 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A812F2A11EF695FE00B34D30 /* MockData.swift */; };
@@ -16,7 +16,7 @@
 		A8C1DCF51EF5B46F009727BA /* TWLocalize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C1DCEB1EF5B46F009727BA /* TWLocalize.framework */; };
 		A8C1DCFA1EF5B46F009727BA /* TWLocalizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C1DCF91EF5B46F009727BA /* TWLocalizeTests.swift */; };
 		A8C1DCFC1EF5B46F009727BA /* TWLocalize.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C1DCEE1EF5B46F009727BA /* TWLocalize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABACFB71CA40B647FBA4E9A7 /* Pods_TWLocalizeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238DE1941BADC725C988BC7D /* Pods_TWLocalizeTests.framework */; };
+		F5E1A15ED5ABAE7EC41E3D91 /* Pods_TWLocalize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6971F3B1A625F2B0E48CB84E /* Pods_TWLocalize.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2306E7DBF43BE0DA9B4B8E34 /* Pods-TWLocalizeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWLocalizeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWLocalizeTests/Pods-TWLocalizeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		238DE1941BADC725C988BC7D /* Pods_TWLocalizeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWLocalizeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44381CC6EDC9F0B72C7AB68C /* Pods_TWLocalize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWLocalize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4569CD42C9BD0533A3B08B6D /* Pods-TWLocalize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWLocalize.release.xcconfig"; path = "Pods/Target Support Files/Pods-TWLocalize/Pods-TWLocalize.release.xcconfig"; sourceTree = "<group>"; };
-		4CDFF56665585108ABC61B74 /* Pods-TWLocalizeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWLocalizeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TWLocalizeTests/Pods-TWLocalizeTests.release.xcconfig"; sourceTree = "<group>"; };
-		90B8277BDD302BBE4E3F2A52 /* Pods-TWLocalize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWLocalize.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWLocalize/Pods-TWLocalize.debug.xcconfig"; sourceTree = "<group>"; };
+		0368910B274C93AEB12A6EBC /* Pods-TWLocalize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWLocalize.release.xcconfig"; path = "Pods/Target Support Files/Pods-TWLocalize/Pods-TWLocalize.release.xcconfig"; sourceTree = "<group>"; };
+		10AFBA3B622328F1FBA81858 /* Pods-TWLocalize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWLocalize.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWLocalize/Pods-TWLocalize.debug.xcconfig"; sourceTree = "<group>"; };
+		6971F3B1A625F2B0E48CB84E /* Pods_TWLocalize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWLocalize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7608E241054B2F52D012621E /* Pods-TWLocalizeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWLocalizeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TWLocalizeTests/Pods-TWLocalizeTests.release.xcconfig"; sourceTree = "<group>"; };
+		870EF1B81724E715E389B75A /* Pods_TWLocalizeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWLocalizeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A812F29B1EF68E8100B34D30 /* TWLocalize+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TWLocalize+Extensions.swift"; sourceTree = "<group>"; };
 		A812F2A11EF695FE00B34D30 /* MockData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		A812F2A31EF696AA00B34D30 /* TWLocalizeExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TWLocalizeExtensionTests.swift; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		A8C1DCF41EF5B46F009727BA /* TWLocalizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWLocalizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C1DCF91EF5B46F009727BA /* TWLocalizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWLocalizeTests.swift; sourceTree = "<group>"; };
 		A8C1DCFB1EF5B46F009727BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE2386CC2408AEBB326B516 /* Pods-TWLocalizeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWLocalizeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWLocalizeTests/Pods-TWLocalizeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				458B086F8FD1A62A02A5D16E /* Pods_TWLocalize.framework in Frameworks */,
+				F5E1A15ED5ABAE7EC41E3D91 /* Pods_TWLocalize.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,21 +63,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8C1DCF51EF5B46F009727BA /* TWLocalize.framework in Frameworks */,
-				ABACFB71CA40B647FBA4E9A7 /* Pods_TWLocalizeTests.framework in Frameworks */,
+				35D13F08DDDD2AF4FD1F1863 /* Pods_TWLocalizeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		053713EE310F2F24A5964167 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10AFBA3B622328F1FBA81858 /* Pods-TWLocalize.debug.xcconfig */,
+				0368910B274C93AEB12A6EBC /* Pods-TWLocalize.release.xcconfig */,
+				DEE2386CC2408AEBB326B516 /* Pods-TWLocalizeTests.debug.xcconfig */,
+				7608E241054B2F52D012621E /* Pods-TWLocalizeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D982AAB4A649B36B48E8705 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6971F3B1A625F2B0E48CB84E /* Pods_TWLocalize.framework */,
+				870EF1B81724E715E389B75A /* Pods_TWLocalizeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A8C1DCE11EF5B46F009727BA = {
 			isa = PBXGroup;
 			children = (
 				A8C1DCED1EF5B46F009727BA /* TWLocalize */,
 				A8C1DCF81EF5B46F009727BA /* TWLocalizeTests */,
 				A8C1DCEC1EF5B46F009727BA /* Products */,
-				CCE548156DDFC4F67E9E51AD /* Pods */,
-				C4251D2BAB82F01AE837A0D6 /* Frameworks */,
+				053713EE310F2F24A5964167 /* Pods */,
+				8D982AAB4A649B36B48E8705 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,26 +133,6 @@
 			path = TWLocalizeTests;
 			sourceTree = "<group>";
 		};
-		C4251D2BAB82F01AE837A0D6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				44381CC6EDC9F0B72C7AB68C /* Pods_TWLocalize.framework */,
-				238DE1941BADC725C988BC7D /* Pods_TWLocalizeTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CCE548156DDFC4F67E9E51AD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				90B8277BDD302BBE4E3F2A52 /* Pods-TWLocalize.debug.xcconfig */,
-				4569CD42C9BD0533A3B08B6D /* Pods-TWLocalize.release.xcconfig */,
-				2306E7DBF43BE0DA9B4B8E34 /* Pods-TWLocalizeTests.debug.xcconfig */,
-				4CDFF56665585108ABC61B74 /* Pods-TWLocalizeTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -151,12 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8C1DCFF1EF5B46F009727BA /* Build configuration list for PBXNativeTarget "TWLocalize" */;
 			buildPhases = (
-				FCC157DDC6A4CC5CFBC7748C /* [CP] Check Pods Manifest.lock */,
+				91DEB2CB9857B562E5319B69 /* [CP] Check Pods Manifest.lock */,
 				A8C1DCE61EF5B46F009727BA /* Sources */,
 				A8C1DCE71EF5B46F009727BA /* Frameworks */,
 				A8C1DCE81EF5B46F009727BA /* Headers */,
 				A8C1DCE91EF5B46F009727BA /* Resources */,
-				E4ED4523824D395255032E1C /* [CP] Copy Pods Resources */,
+				4F845B2770630DE5918DB19B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,12 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8C1DD021EF5B46F009727BA /* Build configuration list for PBXNativeTarget "TWLocalizeTests" */;
 			buildPhases = (
-				1996264858D333B89F55E512 /* [CP] Check Pods Manifest.lock */,
+				E6ECD1A705EF2530F1F73F38 /* [CP] Check Pods Manifest.lock */,
 				A8C1DCF01EF5B46F009727BA /* Sources */,
 				A8C1DCF11EF5B46F009727BA /* Frameworks */,
 				A8C1DCF21EF5B46F009727BA /* Resources */,
-				8A0D8364442D3FE2672B5890 /* [CP] Embed Pods Frameworks */,
-				199DAADD5EECA983B7BE5CA8 /* [CP] Copy Pods Resources */,
+				9AA84B881F9D72351605F87F /* [CP] Embed Pods Frameworks */,
+				DC1B5309604767123BAA4ADE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,52 +247,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1996264858D333B89F55E512 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		199DAADD5EECA983B7BE5CA8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TWLocalizeTests/Pods-TWLocalizeTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8A0D8364442D3FE2672B5890 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TWLocalizeTests/Pods-TWLocalizeTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E4ED4523824D395255032E1C /* [CP] Copy Pods Resources */ = {
+		4F845B2770630DE5918DB19B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,7 +262,52 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TWLocalize/Pods-TWLocalize-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FCC157DDC6A4CC5CFBC7748C /* [CP] Check Pods Manifest.lock */ = {
+		91DEB2CB9857B562E5319B69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA84B881F9D72351605F87F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TWLocalizeTests/Pods-TWLocalizeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC1B5309604767123BAA4ADE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TWLocalizeTests/Pods-TWLocalizeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6ECD1A705EF2530F1F73F38 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -459,7 +459,7 @@
 		};
 		A8C1DD001EF5B46F009727BA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90B8277BDD302BBE4E3F2A52 /* Pods-TWLocalize.debug.xcconfig */;
+			baseConfigurationReference = 10AFBA3B622328F1FBA81858 /* Pods-TWLocalize.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -482,7 +482,7 @@
 		};
 		A8C1DD011EF5B46F009727BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4569CD42C9BD0533A3B08B6D /* Pods-TWLocalize.release.xcconfig */;
+			baseConfigurationReference = 0368910B274C93AEB12A6EBC /* Pods-TWLocalize.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -504,7 +504,7 @@
 		};
 		A8C1DD031EF5B46F009727BA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2306E7DBF43BE0DA9B4B8E34 /* Pods-TWLocalizeTests.debug.xcconfig */;
+			baseConfigurationReference = DEE2386CC2408AEBB326B516 /* Pods-TWLocalizeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 22G4U5JWP9;
@@ -518,7 +518,7 @@
 		};
 		A8C1DD041EF5B46F009727BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CDFF56665585108ABC61B74 /* Pods-TWLocalizeTests.release.xcconfig */;
+			baseConfigurationReference = 7608E241054B2F52D012621E /* Pods-TWLocalizeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 22G4U5JWP9;

@@ -12,6 +12,7 @@ import TWLocalize
 class TWLocalizeTests: XCTestCase {
     
     func test_returnTranslatedText_inDutch() {
+        TWLocalize.setLanguage(to: .dutch)
         
     }
     
