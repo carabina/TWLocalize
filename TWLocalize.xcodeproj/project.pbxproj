@@ -16,6 +16,7 @@
 		A8C1DCF51EF5B46F009727BA /* TWLocalize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C1DCEB1EF5B46F009727BA /* TWLocalize.framework */; };
 		A8C1DCFA1EF5B46F009727BA /* TWLocalizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C1DCF91EF5B46F009727BA /* TWLocalizeTests.swift */; };
 		A8C1DCFC1EF5B46F009727BA /* TWLocalize.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C1DCEE1EF5B46F009727BA /* TWLocalize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8E824F21EF848A7005F41A1 /* TWLanguageCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E824F11EF848A7005F41A1 /* TWLanguageCode.swift */; };
 		F5E1A15ED5ABAE7EC41E3D91 /* Pods_TWLocalize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6971F3B1A625F2B0E48CB84E /* Pods_TWLocalize.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		A8C1DCF41EF5B46F009727BA /* TWLocalizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWLocalizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C1DCF91EF5B46F009727BA /* TWLocalizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWLocalizeTests.swift; sourceTree = "<group>"; };
 		A8C1DCFB1EF5B46F009727BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8E824F11EF848A7005F41A1 /* TWLanguageCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TWLanguageCode.swift; sourceTree = "<group>"; };
 		DEE2386CC2408AEBB326B516 /* Pods-TWLocalizeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWLocalizeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWLocalizeTests/Pods-TWLocalizeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,7 @@
 				A8384CB21EF5B5FB00F5EE2D /* Logger.swift */,
 				A8C1DCEE1EF5B46F009727BA /* TWLocalize.h */,
 				A8C1DCEF1EF5B46F009727BA /* Info.plist */,
+				A8E824F11EF848A7005F41A1 /* TWLanguageCode.swift */,
 			);
 			path = TWLocalize;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A812F29D1EF68ED600B34D30 /* TWLocalize.swift in Sources */,
+				A8E824F21EF848A7005F41A1 /* TWLanguageCode.swift in Sources */,
 				A8384CB31EF5B5FB00F5EE2D /* Logger.swift in Sources */,
 				A812F29C1EF68E8100B34D30 /* TWLocalize+Extensions.swift in Sources */,
 			);

@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   TWLocalize:
-    :commit: 703bf39fe5d7a0c4e1f46d40b89648a7121ddf87
+    :commit: 2ee4d01018cc94c0760892f483d4155aad40c83f
     :git: https://github.com/tom-wolters/TWLocalize.git
 
 SPEC CHECKSUMS:
