@@ -20,8 +20,7 @@ public enum TWLanguageCode:String {
     case portuguese = "pt"
 }
 
-/** ## Use TWLocalizedStrings to add new TWLocalizedText
-    Example usage:
+/** ## Example usage:
     ```
     extension TWLocalizedStrings {
         static let LoginHeader:TWLocalizedText = [.dutch: "Verstuur tickets naar je vrienden", .english: "Send tickets to your friends" ]
