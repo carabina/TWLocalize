@@ -4,11 +4,39 @@
 [![License](https://img.shields.io/cocoapods/l/TWLocalize.svg?style=flat)](http://cocoapods.org/pods/TWLocalize)
 [![Platform](https://img.shields.io/cocoapods/p/TWLocalize.svg?style=flat)](http://cocoapods.org/pods/TWLocalize)
 
-## Example
+TWLocalize written in Swift makes iOS localizations easy. No longer do you need to localize your app, keep multiple .string files and use NSLocalizedString.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Usage
 
-## Requirements
+The framework uses a dictionary to retrieve the desired strings. Simply add your own TWLocalizedText dictionary with all the desired translated strings.
+
+```ruby
+struct MyStrings {
+  static let MyText:TWLocalizedText = [.english: "This is my text", .dutch: "Dit is mijn tekst"]
+}
+```
+
+```ruby
+let label = UILabel()
+label.setLocalized(text: MyStrings.MyText)
+```
+
+or use the localized property of MyText directly.
+
+```ruby
+label.text = Strings.MyText.localized
+```
+
+TWLocalize makes use of the current locale language. It's possible to change the language.
+
+```ruby
+TWLocalize.setLanguage(to: .dutch)
+```
+
+Reset the custom set language
+```ruby
+TWLocalize.setLanguage(to: nil)
+```
 
 ## Installation
 
