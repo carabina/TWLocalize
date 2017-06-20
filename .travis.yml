@@ -4,6 +4,7 @@ branches:
  only:
  - develop
 
+os: osx
 xcode_project: TWLocalize.xcodeproj
 xcode_scheme: TWLocalizeTests
 osx_image: xcode8.3.3
