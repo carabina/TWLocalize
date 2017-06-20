@@ -11,10 +11,9 @@
 		A812F29C1EF68E8100B34D30 /* TWLocalize+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A812F29B1EF68E8100B34D30 /* TWLocalize+Extensions.swift */; };
 		A812F29D1EF68ED600B34D30 /* TWLocalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8384CB11EF5B50700F5EE2D /* TWLocalize.swift */; };
 		A812F2A21EF695FE00B34D30 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A812F2A11EF695FE00B34D30 /* MockData.swift */; };
-		A812F2A41EF696AA00B34D30 /* TWLocalizeExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A812F2A31EF696AA00B34D30 /* TWLocalizeExtensionTests.swift */; };
 		A8384CB31EF5B5FB00F5EE2D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8384CB21EF5B5FB00F5EE2D /* Logger.swift */; };
 		A8C1DCF51EF5B46F009727BA /* TWLocalize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C1DCEB1EF5B46F009727BA /* TWLocalize.framework */; };
-		A8C1DCFA1EF5B46F009727BA /* TWLocalizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C1DCF91EF5B46F009727BA /* TWLocalizeTests.swift */; };
+		A8C1DCFA1EF5B46F009727BA /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C1DCF91EF5B46F009727BA /* Tests.swift */; };
 		A8C1DCFC1EF5B46F009727BA /* TWLocalize.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C1DCEE1EF5B46F009727BA /* TWLocalize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8E824F21EF848A7005F41A1 /* TWLanguageCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E824F11EF848A7005F41A1 /* TWLanguageCode.swift */; };
 		F5E1A15ED5ABAE7EC41E3D91 /* Pods_TWLocalize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6971F3B1A625F2B0E48CB84E /* Pods_TWLocalize.framework */; };
@@ -38,14 +37,13 @@
 		870EF1B81724E715E389B75A /* Pods_TWLocalizeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWLocalizeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A812F29B1EF68E8100B34D30 /* TWLocalize+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TWLocalize+Extensions.swift"; sourceTree = "<group>"; };
 		A812F2A11EF695FE00B34D30 /* MockData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
-		A812F2A31EF696AA00B34D30 /* TWLocalizeExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TWLocalizeExtensionTests.swift; sourceTree = "<group>"; };
 		A8384CB11EF5B50700F5EE2D /* TWLocalize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWLocalize.swift; sourceTree = "<group>"; };
 		A8384CB21EF5B5FB00F5EE2D /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = ../../../Tickee/Tickee/Utils/Logger.swift; sourceTree = "<group>"; };
 		A8C1DCEB1EF5B46F009727BA /* TWLocalize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TWLocalize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C1DCEE1EF5B46F009727BA /* TWLocalize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWLocalize.h; sourceTree = "<group>"; };
 		A8C1DCEF1EF5B46F009727BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8C1DCF41EF5B46F009727BA /* TWLocalizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWLocalizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8C1DCF91EF5B46F009727BA /* TWLocalizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWLocalizeTests.swift; sourceTree = "<group>"; };
+		A8C1DCF91EF5B46F009727BA /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A8C1DCFB1EF5B46F009727BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8E824F11EF848A7005F41A1 /* TWLanguageCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TWLanguageCode.swift; sourceTree = "<group>"; };
 		DEE2386CC2408AEBB326B516 /* Pods-TWLocalizeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWLocalizeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWLocalizeTests/Pods-TWLocalizeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,8 +128,7 @@
 			children = (
 				A8C1DCFB1EF5B46F009727BA /* Info.plist */,
 				A812F2A11EF695FE00B34D30 /* MockData.swift */,
-				A8C1DCF91EF5B46F009727BA /* TWLocalizeTests.swift */,
-				A812F2A31EF696AA00B34D30 /* TWLocalizeExtensionTests.swift */,
+				A8C1DCF91EF5B46F009727BA /* Tests.swift */,
 			);
 			path = TWLocalizeTests;
 			sourceTree = "<group>";
@@ -343,8 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8C1DCFA1EF5B46F009727BA /* TWLocalizeTests.swift in Sources */,
-				A812F2A41EF696AA00B34D30 /* TWLocalizeExtensionTests.swift in Sources */,
+				A8C1DCFA1EF5B46F009727BA /* Tests.swift in Sources */,
 				A812F2A21EF695FE00B34D30 /* MockData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
