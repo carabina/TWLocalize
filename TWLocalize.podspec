@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "TWLocalize"
-  s.version             = "0.0.1"
+  s.version             = "0.0.2"
   s.summary             = "Easy Localizations for iOS written in Swift"
   s.description         = <<-DESC
                   Easy Localizations written in Swift.
