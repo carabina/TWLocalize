@@ -20,7 +20,7 @@ public typealias TWLocalizedText = [TWLanguageCode:String]
 public struct TWLocalizedStrings {}
 
 public final class TWLocalize {
-    fileprivate static var defaultLanguage:String? {
+    static var defaultLanguage:String? {
         set {
             if let newValue = newValue {
                 UserDefaults.standard.set(newValue, forKey: "TWLocalizedCustomLanguageIdentifier")
@@ -35,7 +35,7 @@ public final class TWLocalize {
         }
     }
     
-    fileprivate static var languageCode:TWLanguageCode? {
+    static var languageCode:TWLanguageCode? {
         if let languageCode = defaultLanguage {
             return TWLanguageCode(rawValue: languageCode)
         } else if let currentLanguageCode = NSLocale(localeIdentifier: Locale.current.identifier).object(forKey: NSLocale.Key.languageCode) as? String {

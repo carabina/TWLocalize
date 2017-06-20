@@ -46,13 +46,13 @@ class Logger {
         print(message)
     }
     
-    fileprivate class func dateString(from date:Date) -> String {
+    class func dateString(from date:Date) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "H:mm:ss"
         return dateFormatter.string(from: date)
     }
     
-    fileprivate class func symbol(for option:LogOption) -> String {
+    class func symbol(for option:LogOption) -> String {
         switch option {
         case .error: return "❌ "
         case .warning: return "⚠️ "
