@@ -8,14 +8,14 @@
 
 import Foundation
 
-enum LogOption {
+public enum LogOption {
     case error(String?)
     case warning(String?)
     case print(String?)
     case todo(String?)
 }
 
-class Logger {
+public class Logger {
     class func log(_ option:LogOption, file:String = #file, function:StaticString = #function, line:UInt = #line) {
         var fileName = file.components(separatedBy: "/").last!
         fileName = fileName.replacingOccurrences(of: ".swift", with: "")
@@ -46,13 +46,13 @@ class Logger {
         print(message)
     }
     
-    class func dateString(from date:Date) -> String {
+    fileprivate class func dateString(from date:Date) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "H:mm:ss"
         return dateFormatter.string(from: date)
     }
     
-    class func symbol(for option:LogOption) -> String {
+    fileprivate class func symbol(for option:LogOption) -> String {
         switch option {
         case .error: return "❌ "
         case .warning: return "⚠️ "

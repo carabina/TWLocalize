@@ -1,7 +1,6 @@
 language: objective-c
 
-#os: osx
 xcode_project: TWLocalize.xcodeproj
 xcode_scheme: TWLocalize
 osx_image: xcode8.3
-#xcode_sdk: iphonesimulator9.3
+xcode_sdk: iphonesimulator9.3
