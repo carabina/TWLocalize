@@ -1,0 +1,13 @@
+language: swift
+
+branches:
+ only:
+ - develop
+
+xcode_project: TWLocalize.xcodeproj
+xcode_scheme: TWLocalizeTests
+osx_image: xcode8.3.3
+xcode_sdk: iphonesimulator9.3
+
+script:
+- xcodebuild clean build test -project TWLocalize.xcodeproj -scheme TWLocalizeTests

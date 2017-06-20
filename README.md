@@ -1,5 +1,6 @@
 # TWLocalize
 
+[![Build Status](https://travis-ci.org/tom-wolters/TWLocalize.svg?branch=master)](https://travis-ci.org/tom-wolters/TWLocalize)
 [![Version](https://img.shields.io/cocoapods/v/TWLocalize.svg?style=flat)](http://cocoapods.org/pods/TWLocalize)
 [![License](https://img.shields.io/cocoapods/l/TWLocalize.svg?style=flat)](http://cocoapods.org/pods/TWLocalize)
 [![Platform](https://img.shields.io/cocoapods/p/TWLocalize.svg?style=flat)](http://cocoapods.org/pods/TWLocalize)
