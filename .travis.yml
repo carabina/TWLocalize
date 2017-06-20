@@ -1,9 +1,5 @@
 language: objective-c
 
-branches:
- only:
- - develop
-
 os: osx
 xcode_project: TWLocalize.xcodeproj
 xcode_scheme: TWLocalize
